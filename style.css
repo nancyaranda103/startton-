@@ -1,0 +1,85 @@
+h4{ margin:0px;
+    margin-left:20px;
+    font-size:30px;
+    margin-top:0px;
+    }
+    
+        
+        
+        h3{
+           color:black;
+        background-color:gold;
+            padding: 20px;
+    text-align: center;
+    margin-top:0px;
+    margin:0px;
+    margin-bottom:0px;
+    
+        }
+    h1{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    height: 300px;
+    text-align: center;
+    max-height: fit-content;
+    }
+    
+    h2 {padding: 20px;
+    
+    background-color:black; 
+    text-align:center;
+    margin-top:0px;
+    color: goldenrod;
+    margin-bottom:0px;
+    }
+    div {color: blue; 
+     background-color: black;
+    display: inline-block; 
+    width: 100px; 
+    height: 40px; }
+    nav { list-style-type: none;
+    text-align: center;}
+    li{ display: inline-block;
+        margin: 20px; 
+    
+    padding: 20px; 
+     } 
+    
+    body{ padding: 0px;
+    
+    background-color:white;
+    
+    }
+    li :hover{ background-color: white;
+        padding:20px;
+        
+    }
+        
+    header{height: 200px;
+    padding: 20px;
+    background-image:url("rice/business\ seats\ .jpg");
+    background-position: center;
+    background-size: 100%;
+     }
+    p{ margin-top:20px;
+    margin-left:15px;
+    margin-bottom:0px;
+    }
+    .bigger{ font-size:25px;
+        
+    }
+    .nice{ margin:0px;
+        padding: 0px;
+        margin-bottom:0px;
+    
+    
+    }
+    .life{font-size:25px;  
+        margin-bottom:0px;
+    
+     }
+    .goof{ font-size:25px;
+        font-style: oblique
+        margin-top:30px ;
+        }
