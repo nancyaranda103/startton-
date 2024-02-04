@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
     <header>
-    <h1>Contact us </h1>
+    <h1>CONTACT US </h1>
 <nav> <ol>   
     <Li><a href="index.html">Home</a></Li>
     <Li><a href="contact us.html">Contact us</a> </Li>
@@ -14,13 +14,13 @@
 </nav>
   
 </header>
-<style>  
-    body{background-color: rgb(120, 106, 133);  
+<style> 
+nav{     text-align: center;} 
+    body{background-color: black;
 color:rgb(189, 201, 212)
 
     }
-    li:first-child{background-color: red;
-    }
+    
     h3{ 
         color:rgb(53, 53, 128);}
         button{ background-color: blue;
@@ -28,10 +28,11 @@ color:rgb(189, 201, 212)
     color: white;
 
     }
-h1{background-color:blue;
+h1{
 color: beige;
 margin: 0%;
 padding: 0%;
+text-align: center;
 }
 
 h2 {margin: 20px;
@@ -47,9 +48,51 @@ li{ display: inline-block;
 
 padding: 20px;   } 
 
-
+li:hover{ background-color: aqua;    }
     
-</style>
+
+
+
+  
+
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    input[type="text"], input[type="email"] {
+      width: 300px;
+      height: 50px;
+      text-align: center;
+    }
+    textarea {
+      width: 300px;
+      height: 300px;
+    }
+    input[type="submit"] {
+      width: 150px;
+      height: 50px;
+      font-size: 16px;
+      color:black;
+      background-color: aqua;
+    }
+  </style>
+</head>
+<body>
+ 
+  <form action="/submit_contact_form" method="post">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name"><br>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email"><br>
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message"></textarea><br>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+
+
+
 <div>trending top 10 movies </div>
 <div> trending top 10 tv shows </div>
 <h2> <strong>Impressive Studios</strong></H2>
