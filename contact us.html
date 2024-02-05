@@ -66,12 +66,15 @@ li:hover{ background-color: aqua;    }
       text-align: center;
       font-size: 40px;
       font-style: oblique;
+      margin-bottom:20px;
+      max-width:none ;
     }
     textarea {
       width: 970px;
       height: 300px;
       font-size: 40px;
       font-style: oblique;
+      resize: vertical;
     }
     input[type="submit"] {
       width: 200px;
@@ -79,7 +82,17 @@ li:hover{ background-color: aqua;    }
       font-size: 16px;
       color:black;
       background-color:rgb(235, 21, 235);
+      max-width:none ;
+
     }
+    @media (max-width: 600px) {
+      input[type="text"], input[type="email"], textarea, input[type="submit"] {
+        width: 100%;
+        max-width: none;
+      }
+    }
+
+
   </style>
 </head>
 <body>
