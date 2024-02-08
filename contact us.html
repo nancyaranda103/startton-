@@ -1,192 +1,191 @@
-
 <!DOCTYPE html>
 <html>
-    <header>
-    <h1>CONTACT US </h1>
-<nav> <ol>   
-    <Li><a href="index.html">Home</a></Li>
-    <Li><a href="contact us.html">Contact us</a> </Li>
-    <Li><a href="about us.html">About us</a></Li>
-    <Li><a href="login.html">login/sign up</a></Li>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+            color: rgb(189, 201, 212);
+            margin: 0;
+            padding: 0;
+        }
 
+        header {
+            background-color: black;
+            padding: 20px;
+            text-align: center;
+        }
 
-</ol> 
-</nav>
-  
-</header>
-<style> 
-nav{     text-align: center;} 
-    body{background-color: black;
-color:rgb(189, 201, 212)
+        nav {
+            text-align: center;
+            margin-bottom: 20px;
+        }
 
-    }
-    
-    h3{ 
-        color:rgb(53, 53, 128);}
-        button{ background-color: blue;
-        border: none;
-    color: white;
+        nav ol {
+            list-style-type: none;
+            padding: 0;
+        }
 
-    }
-h1{
-color: beige;
-margin: 0%;
-padding: 0%;
-text-align: center;
-}
+        nav li {
+            display: inline-block;
+            margin: 0 10px;
+        }
 
-h2 {margin: 20px;
-padding: 10px; }
-div {color: blue; 
- 
-width: 100px; 
-height: 40px; }
-nav { list-style-type: none;}
-li{ display: inline-block;
-    margin: 20px; 
+        nav a {
+            color: beige;
+            text-decoration: none;
+        }
 
-padding: 20px;   } 
+        h1 {
+            color: beige;
+            font-size: 32px;
+            margin: 0;
+            padding: 0;
+        }
 
-li:hover{ background-color: aqua;    }
-    
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
 
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            max-width: 600px;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 18px;
+            font-style: oblique;
+            box-sizing: border-box;
+        }
 
+        input[type="submit"] {
+            width: 100%;
+            max-width: 200px;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: aqua;
+            color: black;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
 
-  
+        input[type="submit"]:hover {
+            background-color: #00cccc;
+        }
 
-    form {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-    input[type="text"], input[type="email"] {
-      width: 950px;
-      height: 85px;
-      text-align: center;
-      font-size: 40px;
-      font-style: oblique;
-      margin-bottom:20px;
-      max-width:none ;
-    }
-    textarea {
-      width: 970px;
-      height: 300px;
-      font-size: 40px;
-      font-style: oblique;
-      resize: vertical;
-    }
-    input[type="submit"] {
-      width: 200px;
-      height: 70px;
-      font-size: 16px;
-      color:black;
-      background-color: aqua;
-      max-width:none ;
+        .cool {
+            background-color: rgb(232, 23, 232);
+            padding: 18px;
+            margin-bottom: 0%;
+            margin-left: 0%;
+            margin-right: 0%;
+            line-height: 40px;
+            text-align: center;
+        }
 
-    }
-    @media (max-width: 1000px) {
-      input[type="text"], input[type="email"], textarea, input[type="submit"] {
-        width: 100%;
-        max-width: none;
-        margin-bottom:50px;
-        
-      }
-    }
+        .correct {
+            color: aliceblue;
+            font-size: 24px;
+            margin-bottom: 0%;
+            line-height: 25px;
+        }
 
- 
-    .cool{ background-color:rgb(232, 23, 232); 
-padding:18px; 
-margin-bottom: 0%;
-margin-left: 0%;
-margin-right: 0%;
-line-height: 40px;
- }
- .correct{ color: aliceblue;     
-font-size:35px;
-margin-bottom: 0%;
-line-height: 25px;
-}
-.st{width:150px;  
-    border-radius: 50px; 
+        .st {
+            width: 150px;
+            border-radius: 50px;
+        }
 
+        h5 {
+            background-color: black;
+            text-align: center;
+            color: aliceblue;
+            padding: 15px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            font-size: 24px;
+        }
 
-}
-h5{  background-color: black; 
-text-align: center;
-color: aliceblue;
-padding:30px;
-margin-top:0px;
-margin-bottom: 0px;
-font-size: 30px;
+        h6 {
+            padding: 15px;
+            background-color: rgb(232, 23, 232);
+            color: black;
+            margin-top: 0px;
+            font-size: 18px;
+            margin-bottom: 0px;
+        }
 
-line-height: 0%;
-}  
-figure{ text-align: center;}
-h6{ padding: 30px; 
-  background-color:rgb(232, 23, 232);
-color: black;
-margin-top:0px;
-font-size:25px;
-margin-bottom:0px;
-line-height:0.2px;
-text-align: center;
+        h3 {
+            background-color: aqua;
+            text-align: center;
+            margin-top: 0px;
+            margin-bottom: 30px;
+            padding: 15px;
+            color: black;
+        }
 
-
-}
-h5{margin-top: 0%;   
-background-color:rgb(232, 23, 232); }
-    .email{  margin-bottom:30px;
-    color: black;
-    }
-h3{ background-color: aqua;   
-margin-top: 0%; 
-
-text-align: center;
-margin-top:0px;
-margin:0px;
-margin-bottom:30px;
-
-
- }
-
-  </style>
+        @media screen and (max-width: 600px) {
+            input[type="text"],
+            input[type="email"],
+            textarea,
+            input[type="submit"] {
+                width: 100%;
+                max-width: none;
+                margin-bottom: 30px;
+            }
+        }
+    </style>
 </head>
 <body>
- 
-  <form action="/submit_contact_form" method="post">
+
+<header>
+    <h1>CONTACT US</h1>
+    <nav>
+        <ol>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact us.html">Contact us</a></li>
+            <li><a href="about us.html">About us</a></li>
+            <li><a href="login.html">Login/Sign up</a></li>
+        </ol>
+    </nav>
+</header>
+
+<form action="/submit_contact_form" method="post">
     <label for="name">Name:</label><br>
-    <input type="text" id="name" name="name"><br>
+    <input type="text" id="name" name="name" required><br>
     <label for="email">Email:</label><br>
-    <input type="email" id="email" name="email"><br>
+    <input type="email" id="email" name="email" required><br>
     <label for="message">Message:</label><br>
-    <textarea id="message" name="message"></textarea><br>
+    <textarea id="message" name="message" required></textarea><br>
     <input type="submit" value="Submit">
-  </form>
+</form>
+
+<figure class="cool">
+    <img class="st" src="rice/st (png ).png" alt="STRATTON PULSE">
+    <figcaption class="correct">STRATTON PULSE</figcaption>
+</figure>
+
+<h5>INVESTMENTS</h5>
+<h6 class="email">For further enquiries, please contact us at: contact@strattonpulseinvestments</h6>
+<h6>And call us for any issues with your account at 406-523-1548</h6>
+
+<h3>
+    <div class="alright"><a href="index.html">Home</a></div>
+    <div class="alright"><a href="about us.html">About us</a></div>
+    <div class="alright"><a href="login.html">Login/Sign up</a></div>
+    <br>
+    Copyright © 2024 STRATTON PULSE INVESTMENTS All Rights Reserved | Privacy Policy
+</h3>
+
 </body>
-
-
-<figure class="cool"><img class=" st" src="rice/st (png ).png" alt="STRATTON PULSE">
-  <figcaption class="correct ">STRATTON PULSE</figcaption>
-  
-  </figure>
-      <h5> INVESTMENTS</h5>
-  <h6 class="email">for further enquires pls contact us at: contact@strattonpulseinvestments</h6>
-  <h6>And call us for any issues with your account at 406-523-1548 </h6>
-      <h3>
-    <div class="alright"> <a href="index.html">Home</a></div>
-      <div class="alright"><a href="about us.html">About us</a></div>
-      <div class="alright"><a href="login.html">login/sign up</a></div>
-      Copyright © 2024 STRATTON PULSE INVESTMENTS All Rights Reserved | Privacy Policy
-  
-      </h3>
-    
-    
-</html> 
-
-
-
-<em></em>
-    
-
-   
-        <strong></strong>     
+</html>
