@@ -196,6 +196,7 @@ border-radius:40%;
 margin-left: 280px;
 
 }
+
 figure {
     
     margin-left: 0px;
@@ -216,6 +217,7 @@ header {
     height: 800px;
     padding: 50px;
     background-image: url("rice/black\ .jpg");
+    width: 1150px;
     background-position: center;
     background-size: 100%;
 margin-bottom:20px;
@@ -223,10 +225,11 @@ margin-bottom:20px;
 .baby{  
 margin-top:20px;
 background-color:black;
-padding: 30px;
+padding: 40px;
 color: aqua;
 border-radius:50px;
 margin-bottom:0px;
+margin-left:192px;
 }
 .art{ display: block; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
@@ -234,17 +237,17 @@ background-color: black;
 color: rgb(255, 16, 255);
 padding: 30px;
 margin-right:0px;
-
-margin-bottom: 0px;
+width:1150px;
+margin-bottom:50px;
 }
 .time{   margin: 0px;  
 margin-top:20px;
-font-size:50px;
-margin-left:0px;
+font-size:70px;
+margin-left:20px;
 
 }
-.cupid{  margin-left:250px; 
-font-size:40px;
+.cupid{  margin-left:300px; 
+font-size:60px;
 
 }
 .sun{font-size:60px;   
@@ -254,30 +257,32 @@ text-align: center;
 .dreams{ margin-left: 0%; 
 list-style-type:none;
 margin-top: 20px;
-font-size: 52px;
+font-size: 70px;
 margin-bottom: 0%;
+margin-left:20px;
 
 }
 
 .be{      
-margin-left:250px;
+margin-left:300px;
 margin-top: 0%;
 margin-bottom:20px;
-font-size:40px;
+font-size:60px;
 }
-.lie{  margin: 0px;
-font-size:55px;
+.lie{  margin: 20px;
+font-size:80px;
 
 }
 
 .best{ display: inline-block;
-margin-left:100px;
+margin-left:250px;
 color: aqua;
 }
 .lack{ text-align: center;    
-padding: 70px;
+padding: 35px;
 border-radius:50px;
-font-size:35px;
+font-size:40px;
+
 }
 .tired {text-align: center;  
 margin-top:30px;
@@ -285,16 +290,32 @@ margin-top:30px;
 }  
 
 .container {
-    max-width: 90%;
-    margin: 20px auto;
-    padding: 10px;
+    width:2300px; 
+    margin: 0%;
+    padding: 155px;
     background-color: black; 
     border-radius: 20px;
     color: white; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
-   margin-left: 40px;
+   margin-left: 0px;
    background-image: url(rice/market\ 3.jpg);
+   height:320px;  
+margin-right:0px;
+   
 }
+.ft{  color: aqua;   
+    font-size:30px;
+    background-color:black;
+    margin-left:100px;
+    border-radius:50px;
+
+    }
+.cold{  margin-top:10px;
+    margin-left:10px;
+    width:1000px;
+    
+}
+
 
 
     }
