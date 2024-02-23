@@ -237,7 +237,7 @@ background-color: black;
 color: rgb(255, 16, 255);
 padding: 30px;
 margin-right:0px;
-width:1150px;
+width:1225px;
 margin-bottom:50px;
 }
 .time{   margin: 0px;  
@@ -290,16 +290,16 @@ margin-top:30px;
 }  
 
 .container {
-    width:2300px; 
+    width:2800px; 
     margin: 0%;
-    padding: 155px;
+    padding: 200px;
     background-color: black; 
     border-radius: 20px;
     color: white; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
    margin-left: 0px;
    background-image: url(rice/market\ 3.jpg);
-   height:320px;  
+   height:300px;  
 margin-right:0px;
    
 }
