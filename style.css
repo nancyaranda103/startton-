@@ -12,7 +12,8 @@
 }
 
 body {
-    background-color: whitesmoke;
+   
+ background-color:rgb(4, 4, 24);
     padding: 0px;
     margin: 0px;
     margin-left: 0px;
@@ -73,7 +74,7 @@ position: relative;
 
  }
 
-.ikenna{     display: inline-block;     
+.ikenna{   display:inline-block;
 padding:20px;
 border-radius:80px;
 background-color:navajowhite;
@@ -337,7 +338,7 @@ margin-right:0px;
     
 }
 
-body{ background-color:rgb(37, 36, 36);   
+body{ background-color:rgb(4, 4, 24);
 margin: 0%;
 padding: 0%;
 
@@ -393,8 +394,8 @@ margin-right:100px;
         header {
          
           
-      background-color: rgb(38, 37, 37);
-        padding-bottom:40px;
+     padding-top: 0%;
+        padding-bottom:0px;
         
          
         }
@@ -416,6 +417,12 @@ margin-right:100px;
                 margin-bottom:800px;
                 padding:20px;
                 }
+                
+        .caught{ width:90%; 
+        display: block;
+        margin-left:20%;
+        }     
+        .guy{ align-items: center; }
 
     }
 
