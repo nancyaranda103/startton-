@@ -11,6 +11,7 @@
    background-image: url(rice/market\ 3.jpg);
 }
 
+.name,.phone,.mama{  color: aliceblue;      }
 body {
    
  background-color:rgb(4, 4, 24);
@@ -68,10 +69,10 @@ li {text-decoration: none;
    
 }
 
-.caught{ width:350px; 
+.caught{ width:40%; 
 border-radius:50%;
 position: relative;
-
+margin-left:100px;
  }
 
 .ikenna{   display:inline-block;
@@ -79,12 +80,15 @@ padding:20px;
 border-radius:80px;
 background-color:navajowhite;
 margin-top:0px;
-margin-bottom:20%;
+margin-bottom:10%;
 width:350px; 
 height:100px;
 margin-right:50px;
 }
-.guy{  position: relative;             }
+.guy{  position: relative;
+margin-bottom:0px;
+
+}
 
 .feast{  font-size:20px; 
 color: black;
@@ -423,6 +427,13 @@ margin-right:100px;
         margin-left:20%;
         }     
         .guy{ align-items: center; }
+.skepta{  display: block;  
+margin-left:20px;
+
+}
+
+
+
 
     }
 
@@ -524,3 +535,14 @@ background-image: url(rice/etherum\ .jpg);
     border-radius:20px;
 }
 .corn{ margin-left:320px;   }
+.skepta{  display: none;
+   
+    
+    }
+.rotimi{ width:200px;
+border-radius:50px;
+}
+ .rachel{ color: aliceblue; 
+margin-left:100px;
+margin-bottom:200px;
+}
