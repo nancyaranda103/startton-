@@ -193,6 +193,7 @@ margin-top:20px;
 color:aqua;
 background-color: black;
 padding: 20px;
+
 }
 .be{      
 margin-left: 78px;
@@ -219,6 +220,7 @@ border-radius:50px;
 margin-top:30px;
 
 }   
+/*responsive rules */
 
 @media screen and (max-width: 980px) {
       
@@ -390,10 +392,24 @@ margin-right:100px;
 
          }
         
-          .see{ width:130%;       
-        padding:0px;
-            height:50%;
+          .see{position: absolute;
+            top: 0;
+            left: 0;
+            width:100%;
+            height:100%;
+            object-fit: cover;
         }  
+        .video-wrapper{     
+position: relative;
+padding: 0px;
+width:130vw;
+height:140vw;
+overflow: hidden;
+
+        }
+
+
+
 
         header {
          
@@ -427,13 +443,11 @@ margin-right:100px;
         margin-left:20%;
         }     
         .guy{ align-items: center; }
-.skepta{  display: block;  
-margin-left:20px;
+.skepta{visibility:visible;
 
 }
 
-
-
+.ikenna{ display:none;  }
 
     }
 
@@ -535,10 +549,11 @@ background-image: url(rice/etherum\ .jpg);
     border-radius:20px;
 }
 .corn{ margin-left:320px;   }
-.skepta{  display: none;
-   
-    
+.skepta{ visibility: hidden;
+   height:5%;
+width:10%;
     }
+  
 .rotimi{ width:200px;
 border-radius:50px;
 }
