@@ -1,563 +1,94 @@
-.container {
-    max-width: 90%;
-    margin: 20px auto;
-    padding: 10px;
-    background-color: black; 
-    border-radius: 20px;
-    color: white; 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
-   margin-left: 58px;
-   margin-bottom:0px;
-   background-image: url(rice/market\ 3.jpg);
+*{
+  margin: 0;
+  padding: 0;
+  font-family:'poppins', sans-serif;
+box-sizing: border-box;
 }
-
-.name,.phone,.mama{  color: aliceblue;      }
-body {
-   
- background-color:rgb(4, 4, 24);
-    padding: 0px;
-    margin: 0px;
-    margin-left: 0px;
+.container{
+width: 100vw;
+height: 100vh;
+background-image: url(img/crazy.jpg);
+background-position: center;
+background-size: cover;
+padding: 0 8%;
 }
-
-h1 {
-    
-    text-align: center;
-   
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-size: 45px;
-}
-
-h2 {
-    margin-left: 555px;
-    margin-top: 0%;
-
+.logo{
+width:120px;
+padding: 20px 0;
+cursor: pointer;
 
 }
-
-h4 {
-    margin-top: 0%;
-    font-size: 30px;
-    margin-bottom: 0px;
-    
+.content {
+top: 50%;
+position: absolute;
+transform: translateY(-50%);
+color: white;
 }
+.content h1{
+font-size: 64px;
+margin-top:0;
+padding-top:0;
 
-h5 {
-    margin-left: 100px;
-    margin-top: 0%;
-    font-size: 20px;
-    margin-bottom: 0%;
+font-weight: 600;
 }
-
-.right {
-    width: 75px;
-    margin-bottom: 0px;
-}
-
-nav {
-    list-style-type: none;
-    text-align: center;
-   
-}
-
-li {text-decoration: none;
-    display: inline-block;
-    margin: 10px;
-    padding: 20px;
-
-   
-}
-
-.caught{ width:40%; 
-border-radius:50%;
-position: relative;
-margin-left:100px;
- }
-
-.ikenna{   display:inline-block;
-padding:20px;
-border-radius:80px;
-background-color:navajowhite;
-margin-top:0px;
-margin-bottom:10%;
-width:350px; 
-height:100px;
-margin-right:50px;
-}
-.guy{  position: relative;
-margin-bottom:0px;
-
-}
-
-.feast{  font-size:20px; 
-color: black;
-padding:0px;
-background-color: navajowhite;
-margin-left:0px;
-
-}
-
-li:hover {
-    background-color: whitesmoke;
-}
-
-header {
-    background-position: center;
-    background-size: 100%;
-background-color:black;
-padding-bottom:40px;
-
- 
-}
-
-p {
-    
-    padding: 20px;
-    text-align: center;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-size: 50px;
-    color: aliceblue;
-    font-style: normal;
-
-}
-
-figure {
-    margin-left: 0px;
-    display: inline-block;
-    font-size: 25px;
-    flex-wrap: wrap;
-}
-
-article {
-    
-    padding: 40pxpx;
-    text-align: center;
-    font-size: 50px;
-  
-}
-
-figcaption {
-    text-align: center;
-}
-
-h3 {
-    background-color: black;
-    padding: 30px;
-    font-size: 30px;
-    font-style: normal;
-    color: aqua;
-}
-
-.crypto{ width:250px;     
-
-border-radius:70%;
-flex-wrap: wrap;
-
-
-}
-.art{ display: inline-block;    
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
-background-color: black;
-color: rgb(255, 16, 255);
-padding: 30px;
-margin-top:35px;
-margin-right:41px;
-}
-.sun{font-size:25px;   
-color: aliceblue;
-text-align: center; 
-}
-.time{   margin: 0px;  
-margin-top:20px;
-
-margin-left:0px;
-
-
-
-}
-.dreams{ margin-left: 0%; 
-list-style-type:none;
-margin-top: 20px;
-font-size: 23px;
-margin-bottom: 0%;
-
-}
-.cupid{  margin-left:80px; 
-font-size:19px;
-
-}
-.baby{  margin-top:0px; 
-margin-top:20px;
+.content h1 span{
 color:aqua;
-background-color: black;
-padding: 20px;
-
-}
-.be{      
-margin-left: 78px;
-margin-top: 0%;
-margin-bottom:20px;
-font-size:19px;
 
 
 }
-
-.lie{  margin: 0px;
-font-size:30px;
-
+.content P{
+margin-bottom:0;
+padding-bottom:0;
+font-size: 20px;
 }
-.best{ display: inline-block;
-margin-left:78px;
-color: aqua;
-}
-.lack{ text-align: center;    
-padding: 20px;
-border-radius:50px;
-}
-.tired {text-align: center;  
+.content button{
+background: transparent;
+border: 2px solid salmon;
+outline: none;
+color: aliceblue;
+padding: 12px 25px;
+display: flex;
+align-items: center;
 margin-top:30px;
+cursor: pointer;
+}
+.content button img{
+width:15px;
+margin-left:10px;
 
-}   
-/*responsive rules */
-
-@media screen and (max-width: 980px) {
-      
-.crypto{ width:350px;     
-    flex-wrap: wrap;
-display: block;
-border-radius:40%;
-margin-left: 280px;
 
 }
-
-figure {
-    
-    margin-left: 0px;
-   display: block;
-    font-size: 25px;
-   margin-right:0px;
-   
-   margin: 0px;
-
-}
-figcaption{  margin:0px;   
-margin-left: 4px;
-margin-top: 20px;
-margin-bottom: 20px;
+.launch {
+display: flex;
 }
 
-.baby{  
-margin-top:20px;
-background-color:black;
-padding: 40px;
-color: aqua;
-border-radius:50px;
-margin-bottom:0px;
-margin-left:192px;
+.launch div{
+  flex-basis:100px;
 }
-.art{ display: block; 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
-background-color: black;
-color: rgb(255, 16, 255);
-padding: 30px;
-margin-right:0px;
-width:1225px;
-margin-bottom:50px;
-}
-.time{   margin: 0px;  
-margin-top:20px;
+.launch div p{
 font-size:70px;
-margin-left:20px;
+margin-bottom:-12px;
 
 }
-.cupid{  margin-left:300px; 
-font-size:60px;
-text-decoration: none;
+.rocket{
+  right:0%;
+  left:120%;
+  bottom:0;
+  width:300px;
+    position: absolute;
+    animation: rocket 4s linear infinite;
+  }
+  @keyframes rocket{
+0%{
+bottom: 0;
+opacity: 0;
 
 }
-.sun{font-size:60px;   
-color: aliceblue;
-text-align: center; 
-}
-.dreams{ margin-left: 0%; 
-list-style-type:none;
-margin-top: 20px;
-font-size: 70px;
-margin-bottom: 0%;
-margin-left:20px;
-
-}
-
-.be{      
-margin-left:300px;
-margin-top: 0%;
-margin-bottom:20px;
-font-size:60px;
-}
-.lie{  margin: 20px;
-font-size:80px;
-
-}
-
-.best{ display: inline-block;
-margin-left:250px;
-color: aqua;
-}
-.lack{ text-align: center;    
-padding: 35px;
-border-radius:50px;
-font-size:40px;
-text-decoration: none;
-
-}
-.tired {text-align: center;  
-margin-top:30px;
-
-}  
-
-.container {
-    width:2800px; 
-    margin: 0%;
-    padding: 200px;
-    background-color: black; 
-    border-radius: 20px;
-    color: white; 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
-   margin-left: 0px;
-   background-image: url(rice/market\ 3.jpg);
-   height:300px;  
-margin-right:0px;
-   
-}
-.ft{  color: aqua;   
-    font-size:30px;
-    background-color:black;
-    margin-left:100px;
-    border-radius:50px;
-
-    }
-.cold{  margin-top:10px;
-    margin-left:10px;
-    width:1000px;
-    
-}
-
-body{ background-color:rgb(4, 4, 24);
-margin: 0%;
-padding: 0%;
+100%{
+  bottom: 105%;
+opacity: 1;
 
 }
 
 
-
-.name,.phone,.mama{  color: aliceblue;      }
-
-
-.mine{ background-color: black;  
-    color: aqua;
-    margin-bottom:30px;
-margin-right:100px;
-    padding:40px;
-    font-size:70px;
-    width:125%;
-    height:50px;
-  
- }
- .ijesha{ text-align: center;
-   width:200%;
-    margin-top:100px;
-    margin-left:0px;
-    margin-right:0px;
-    height:200%;
-    margin-bottom:30px;
-
-     }
-     .ugo{background-color:black;    
-        margin:0%;
-        color: aliceblue;
-        font-size:32px;
-        padding:100px;
-        margin-bottom:10px;
-        border-radius:50px;
-        background-image: url(rice/etherum\ .jpg);
-        width:118%;
-        
-        }
-        .apele{  border-radius:50px;  
-            padding:200px;
-          
-            height:50%;
-
-         }
-        
-          .see{position: absolute;
-            top: 0;
-            left: 0;
-            width:100%;
-            height:100%;
-            object-fit: cover;
-        }  
-        .video-wrapper{     
-position: relative;
-padding: 0px;
-width:130vw;
-height:140vw;
-overflow: hidden;
-
-        }
-
-
-
-
-        header {
-         
-          
-     padding-top: 0%;
-        padding-bottom:0px;
-        
-         
-        }
-       
-        .ijesha{ align-items: center;
-          margin-bottom:101px;
-           
-
-            width:1000px;
-
-
-
-
-            
-             }
-             .caculus{ background-color: black;   
-                color:rgb(247, 9, 247);
-                margin-top:500;
-                margin-bottom:800px;
-                padding:20px;
-                }
-                
-        .caught{ width:90%; 
-        display: block;
-        margin-left:20%;
-        }     
-        .guy{ align-items: center; }
-.skepta{visibility:visible;
-
-}
-
-.ikenna{ display:none;  }
-
-    }
-
-.super{   
-font-size:15px;
-margin:0px;
-
-
-
-border-radius:50px;
-padding:40px;
-width:500px;
-color: black;
-
-}
-
-
-.nature{margin-left:50px;  
-
-font-size:35px;
-   
-
-margin:0px;
-
-}
-.we{
-margin:0px;
-font-size:30px;
-
-}
-
-.ft{  color: aqua;   
-font-size:30px;
-background-color:black;
-margin-top:0%;
-padding:25px;
-border-radius:40px;
-
-}
-.omg{text-align:center;
-    margin:0px;
-    padding:0px;
-}
-.rice{ width:1200px; 
-    height:950px;  
-margin-right:0px;
-
-
-}
-
-.caculus{ background-color: black;   
-color:rgb(247, 9, 247);
-margin-top:0px;
-margin-bottom:0px;
-padding:20px;
-}
-.mine{ background-color: black;  
-    color: aqua;
-    margin-bottom:15px;
- }
-.ijesha{ text-align:center;
-margin: 0%;
-padding: 0%;
- }
- .apele{  border-radius:50px;  
-    padding:0px;
-    width:900px;
-    height:400px;
-    
- }
- .plenty{ padding:15px;    
-    margin-top:8px;
- background-color:black;
-color: aqua;
-  font-size:50px;
- padding:10px;
- border-radius:50px;
- width:300px;
-  margin-bottom:0px;
-  margin-left: 35%;
-  margin-right:0% ;
-
-
-}
-.ugo{background-color:black;    
-margin:0%;
-color: aliceblue;
-font-size:32px;
-padding:60px;
-margin-bottom:10px;
-border-radius:50px;
-background-image: url(rice/etherum\ .jpg);
-}
-.monalisa{ border-radius:50px;
-    width:900px;
-    height:400px;
-}
-.mine{ margin-top:20px;   
-    border-radius:20px;
-}
-.corn{ margin-left:320px;   }
-.skepta{ visibility: hidden;
-   height:5%;
-width:10%;
-    }
-  
-.rotimi{ width:200px;
-border-radius:50px;
-}
- .rachel{ color: aliceblue; 
-margin-left:100px;
-margin-bottom:200px;
-}
+  }
